@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #ffdd95;
+}
+body {
+  color: #fff;
+  background: #242428;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.inputs {
+  color: #000;
+  outline: none;
+  border: none;
+}
+.inputs:focus {
+  border: none;
+  outline: none;
+}
+.icon {
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 95%;
+  cursor: pointer;
+}
